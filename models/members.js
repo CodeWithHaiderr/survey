@@ -2,6 +2,8 @@ const { Model } = require('objection');
 
 class Members extends Model {
     static get tableName(){
+
+        
         return 'members';
     }
     static get idColumn(){
